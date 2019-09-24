@@ -1,0 +1,64 @@
+---
+title: "如何用 hugo 搭建个人博客用"
+date: 2019-09-24T21:51:42+08:00
+draft: true
+---
+
+# 安装hugo
+
+1. 下载hugo并解压到D:\Software\hugo\
+
+2. 把D:\Software\hugo\加到PATH
+
+# 快速搭建博客
+
+1. 进入hugo官网，点击Quick Start开始
+
+
+2. 用cmder执行Step 2，新建一个博客生成器，例：
+    ```
+    hugo new site xxx.github.io-creator
+    ```
+
+3. 用VSCode打开xxx.github.io-creator，执行Step 3来设置主题，例：
+   ```
+    git init
+    git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+    echo 'theme = "ananke"' >> config.toml
+    ```
+
+4. 用Step 4的代码来创建第一篇博客，例：
+    ```
+    hugo new posts/第一篇博客.md
+    ```
+    编辑完内容，把draft：true改false
+
+5. 执行Step 5的代码
+    ```
+    hugo server -D
+    ```
+    得到一个本地预览的地址http://localhost:1313/
+
+6. 关于主题的配置，可打开config.toml进行汉化，改标题等，例：
+    ```
+    baseURL = "https://example.org/"
+    languageCode = "zh-Hans"
+    title = "XXX的博客"
+    theme = "ananke"
+    ```
+
+7. 运行hugo，得到public目录,进入public目录，执行
+ 
+    ```
+    git init
+    git add .
+    git commit -v
+    ```
+
+8. 在GitHub新建一个xxx.github.io的仓库，执行以下代码，上传public
+    ```
+    git remote add origin git@github.com:xxx.github.io.git
+    git push -u origin master
+    ```
+
+9. 打开https://xxx.github.io/  就能看到自己的个人博客了
