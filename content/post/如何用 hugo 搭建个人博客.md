@@ -7,6 +7,7 @@ draft: true
 # 安装hugo
 
 1. 下载hugo并解压到D:\Software\hugo\
+
 2. 把D:\Software\hugo\加到PATH
 
 # 快速搭建博客
@@ -46,5 +47,18 @@ draft: true
     theme = "ananke"
     ```
 
-7. 运行hugo，搭建完成
-   
+7. 运行hugo，得到public目录,进入public目录，执行
+ 
+    ```
+    git init
+    git add .
+    git commit -v
+    ```
+
+8. 在GitHub新建一个xxx.github.io的仓库，执行以下代码，上传public
+    ```
+    git remote add origin git@github.com:xxx.github.io.git
+    git push -u origin master
+    ```
+
+9. 打开https://xxx.github.io/就能看到自己的个人博客了
