@@ -171,8 +171,6 @@ max-width:100%
     </table>
   ```
 
-  ![捕获1.PNG](https://i.loli.net/2019/10/04/uGtL3b7lNY4xQMr.png)
-
 ### 相关的样式
 
 - table-layout,定义了用于布局表格单元格，行和列的算法。
