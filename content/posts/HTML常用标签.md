@@ -1,7 +1,7 @@
 ---
 title: "HTML常用标签"
 date: 2019-10-04T11:22:38+08:00
-draft: true
+draft: false
 ---
 
 # HTML 常用标签
@@ -15,8 +15,8 @@ draft: true
    ##### 1.1 href 的取值
 
    - 网址  
-     https://google.com
-     http://google.com
+     https://google.com  
+     http://google.com  
      //google.com（推荐）
    - 路径  
      /a/b/c 以及 a/b/c
@@ -48,13 +48,13 @@ draft: true
    ##### 1.2 a 的 target 的取值
 
    - 内置名字  
-     \_blank（新页面）
-     \_top（最顶层页面）
-     \_parent（当前所在页面的上一层）
+     \_blank（新页面）  
+     \_top（最顶层页面）  
+     \_parent（当前所在页面的上一层）  
      \_self（当前页面）
 
    - 程序员命名
-     window 的 name（="xxx"，会覆盖之前的页面）
+     window 的 name（="xxx"，会覆盖之前的页面）  
      iframe 的 name
 
    - 代码示例:
