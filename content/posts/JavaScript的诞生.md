@@ -46,5 +46,3 @@ draft: false
 1. http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html
 2. http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html
 
-
-**资料来源：饥人谷**

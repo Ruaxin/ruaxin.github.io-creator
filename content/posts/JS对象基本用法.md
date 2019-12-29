@@ -100,4 +100,3 @@ let obj = Object.create(common)
 obj.hasOwnProperty('name')
 ```
 
-**资料来源：饥人谷**

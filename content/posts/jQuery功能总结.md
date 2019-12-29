@@ -99,6 +99,6 @@ jQuery()描述: 接受一个包含一个CSS选择器的字符串，用于匹配�
   .height() //取出或设置某个元素的高度
   .val() //取出某个表单元素的值
 ```
-**资料来源1：饥人谷**  
-**资料来源2：http://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html**  
-**资料来源3：https://www.jquery123.com/**
+
+**资料来源1：http://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html**  
+**资料来源2：https://www.jquery123.com/**

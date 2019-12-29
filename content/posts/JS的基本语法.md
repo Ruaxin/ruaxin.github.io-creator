@@ -165,6 +165,5 @@ A||B||C||D取第一个真值或D
 
 关于&&的逻辑图：  
 ![BB.png](https://i.loli.net/2019/11/06/pcq8jsKtiEN4Dmo.png)
-
-**资料来源1：饥人谷**  
-**资料来源2：https://wangdoc.com/javascript/basic/grammar.html**
+ 
+**资料来源：https://wangdoc.com/javascript/basic/grammar.html**
