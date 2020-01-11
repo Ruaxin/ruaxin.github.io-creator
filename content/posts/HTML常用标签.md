@@ -28,7 +28,7 @@ draft: false
      href=#xxxx
    - 代码示例:
 
-     ```
+     {{< highlight html>}}
      <body>
      <p>1</p>
      <p>2</p>
@@ -43,7 +43,7 @@ draft: false
      <a href="mailto:xxxxxxxx@qq.com">发邮件</a>
      <a href="tel:10010">打电话</a>
      </body>
-     ```
+     {{< / highlight >}}
 
    ##### 1.2 a 的 target 的取值
 
@@ -59,14 +59,14 @@ draft: false
 
    - 代码示例:
 
-     ```
+     {{< highlight html>}}
      <a href="https://baidu.com" target="_blank">百度</a>
      <a href="https://baidu.com" target="_top">百度</a>
      <a href="https://baidu.com" target="_parent">百度</a>
      <a href="https://baidu.com" target="_self">百度</a>
      <a href="https://baidu.com" target="xxx">百度</a>
      <iframe src="" name="xxx"></iframe>
-     ```
+     {{< / highlight >}}
 
 2. **target**（指定在哪里打开超链接）
 3. **download**（下载网页）
@@ -94,7 +94,7 @@ onload/onerror（图片是否加载成功）
 
 代码示例：
 
-```
+{{< highlight html>}}
 <img id="xxx" width="400" src="C&T.png" alt="一张图片" />
     <script>
       xxx.onload = function() {
@@ -105,7 +105,7 @@ onload/onerror（图片是否加载成功）
         xxx.src = "/截图4.png";
       };
     </script>
-```
+{{< / highlight >}}
 
 ### 响应式
 
@@ -113,7 +113,7 @@ max-width:100%
 
 代码示例：
 
-```
+{{< highlight html>}}
 <style>
       * {
         margin: 0;
@@ -125,7 +125,7 @@ max-width:100%
       }
     </style>
 
-```
+{{< / highlight >}}
 
 ## 3.table 标签的用法
 
@@ -140,7 +140,7 @@ max-width:100%
 - th(表头)
 - 代码示例:
 
-  ```
+  {{< highlight html>}}
   <table>
       <thead>
         <tr>
@@ -169,7 +169,7 @@ max-width:100%
         </tr>
       </tfoot>
     </table>
-  ```
+  {{< / highlight >}}
 
 ### 相关的样式
 
@@ -180,7 +180,7 @@ max-width:100%
 - border-collapse,是用来决定表格的边框是分开的还是合并的。在分隔模式下，相邻的单元格都拥有独立的边框。在合并模式下，相邻单元格共享边框。
 - border-spacing,指定相邻单元格边框之间的距离（只适用于边框分离模式 ）。
 - 代码示例:
-  ```
+  {{< highlight html>}}
   <style>
       table {
         width: 600px;
@@ -193,7 +193,7 @@ max-width:100%
         border: 1px solid blue;
       }
     </style>
-  ```
+  {{< / highlight >}}
   ![捕获3.PNG](https://i.loli.net/2019/10/04/dAyQ4KJEuYTW1Pj.png)
 
 ## 4.感想总结
@@ -215,7 +215,7 @@ max-width:100%
 9. form 里面要放一个 type=submit 才能触发 submit 事件  
    代码示例：
 
-```
+{{< highlight html>}}
 <body>
     <form action="/xxx" method="POST" autocomplete="on" target="_blank">
       <input name="username" type="text" required />
@@ -241,5 +241,5 @@ max-width:100%
       <button type="submit"><strong>搞起</strong></button>
     </form>
   </body>
-```
+{{< / highlight >}}
 

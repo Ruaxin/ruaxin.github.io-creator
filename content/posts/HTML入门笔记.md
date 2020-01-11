@@ -1,10 +1,10 @@
 ---
-title: "HTML入门笔记1"
+title: "HTML入门笔记"
 date: 2019-10-02T18:07:08+08:00
 draft: false
 ---
 
-# HTML 入门笔记 1
+# HTML 入门笔记 
 
 ## 1.HTML 是谁发明的
 

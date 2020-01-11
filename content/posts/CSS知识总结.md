@@ -30,7 +30,7 @@ draft: false
 具体内容：https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform
 
 红心动画代码示例（transform）:
-```
+{{< highlight html>}}
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,8 +45,8 @@ draft: false
   </div>
 </body>
 </html>
-```
-```
+{{< / highlight >}}
+{{< highlight css>}}
 * {
   box-sizing: border-box;
 }
@@ -86,7 +86,7 @@ draft: false
   height: 50px;
   transform: rotate(45deg);
 }
-```
+{{< / highlight >}}
 ### 2.animation
 
 * 缩写语法
@@ -102,7 +102,7 @@ draft: false
 具体内容：https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation
 
 红心动画代码示例（animation）:
-```
+{{< highlight html>}}
 <!DOCTYPE html>
 <html>
 
@@ -120,8 +120,9 @@ draft: false
 </body>
 
 </html>
-```
-```
+{{< / highlight >}}
+
+{{< highlight css>}}
 * {
   box-sizing: border-box;
 }
@@ -166,7 +167,7 @@ draft: false
   height: 50px;
   transform: rotate(45deg);
 }
-```
+{{< / highlight >}}
 
 ## 3.CSS动画优化
 
