@@ -4,3 +4,6 @@
 [submodule "themes/cupper-hugo-theme"]
 	path = themes/cupper-hugo-theme
 	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "themes/hugo-notepadiu"]
+	path = themes/hugo-notepadiu
+	url = https://github.com/cntrump/hugo-notepadium.git
